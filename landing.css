@@ -16,6 +16,8 @@ body {
 .first__part {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    height: auto;
 }
 
 .header, .container_1 {
@@ -62,7 +64,6 @@ a {
     display: flex;
     flex-direction: column;
     margin-left: 300px;
-
 }
 
 .first_text {
@@ -102,12 +103,19 @@ button {
     font-weight: 700;
 }
 
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
 /*Second section*/
 
 .second__part {
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
+    height: auto;
 }
 
 .ran_text {
@@ -118,7 +126,8 @@ button {
 
 .containers {
     display: flex;
-    gap: 20px;
+    flex-direction: row;
+    gap: 50px;
 }
 
 .empty_cont_1,
@@ -131,7 +140,26 @@ button {
     height: 150px;
 }
 
-.empty_cont_1 {
+.sub_text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 55px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.sub_text_1,
+.sub_text_2,
+.sub_text_3,
+.sub_text_4 {
+    text-wrap: wrap;
+    width: 145px;
+}
+
+.third__part {
     display: flex;
     flex-direction: column;
+    max-width: 100%;
+    background-color: #e5e7eb;
 }
