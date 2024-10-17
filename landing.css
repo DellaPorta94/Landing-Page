@@ -201,7 +201,6 @@ button {
 
 .fourth__part {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     max-width: 100%;
@@ -211,3 +210,21 @@ button {
 .action {
     background-color: #3882f6;
 }
+
+.action_1 {
+    color: #e5e7eb;
+    font-weight: 900;
+}
+
+.action_2 {
+    color: #f9faf8;
+    font-weight: 200;
+}
+
+.action_2,
+.last_button {
+    display: inline;
+    gap: 50px;
+    margin: 50px;   
+}
+
