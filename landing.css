@@ -157,9 +157,57 @@ button {
     width: 145px;
 }
 
+/* Third part */ 
+
 .third__part {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 100%;
+    height: auto;
     background-color: #e5e7eb;
+}
+
+.inspirational_quote {
+    display: flex;
+    width: 750px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.customer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+   
+}
+
+.thor {
+    margin-left: 400px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+/* fourth part */
+
+.fourth__part {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.action {
+    background-color: #3882f6;
 }
